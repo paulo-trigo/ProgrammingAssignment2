@@ -39,7 +39,7 @@ rm( list = setdiff( ls(), lsf.str() ) )
 
 
 ##________________________________________________________________________
-## Returns a closure with:
+## Return a closure with:
 ## - the matrix 'x' (formal argument)
 ## - the inverse of 'x'
 ## - the setter and getter functions of 'x' and its inverse
@@ -233,6 +233,7 @@ test <- function() {
 
 
 ##________________________________________________________________________
+## the "entry-point"
 test()
 # rm( list=ls() )
 
